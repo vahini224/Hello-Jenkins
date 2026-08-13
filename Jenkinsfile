@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/vahini224/Hello-Jenkins.git'
+                    url: 'https://github.com/vahini224/Hello-Jenkins/edit/main/Jenkinsfile.git'
             }
         }
     }
